@@ -3,103 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Yuvraj Bhatkariya - Senior ML Engineer</title>
     <style>
-        /* Reset default margin and padding */
-        body, h1, p {
-            margin: 0;
-            padding: 0;
-        }
+            /* styles.css */
+/* ... (previous styles) ... */
 
-        /* Set background image */
-        body {
-            background-image: url('URL_TO_BACKGROUND_IMAGE');
-            background-size: cover;
-            background-repeat: no-repeat;
-            font-family: Arial, sans-serif;
-        }
+h2 {
+    font-size: 1.2rem;
+    margin: 20px 0 10px;
+}
 
-        /* Header styling */
-        header {
-            text-align: center;
-            padding: 2rem;
-            color: #fff;
-        }
+ul {
+    list-style: none;
+    padding: 0;
+}
 
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
+li {
+    margin-bottom: 20px;
+}
 
-        p {
-            font-size: 1.2rem;
-        }
+/* Add more styling as needed */
 
-        /* Navigation menu */
-        nav {
-            text-align: center;
-            margin-top: 2rem;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            margin: 0 1rem;
-            font-size: 1.1rem;
-        }
-
-        /* Projects section */
-        .projects {
-            padding: 2rem;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-            margin: 2rem auto;
-            max-width: 800px;
-        }
-
-        .project-item {
-            margin-bottom: 1rem;
-        }
-
-        .project-title {
-            font-weight: bold;
-        }
-
-        /* Contact section */
-        .contact {
-            text-align: center;
-            margin-top: 2rem;
-        }
-
-        .email {
-            font-size: 1.2rem;
-            color: #fff;
-        }
     </style>
 </head>
 <body>
-    <header>
+    <div class="profile-card">
+        <div class="background-image"></div>
+        <img src="https://image.freepik.com/free-photo/friendly-brunette-looking-camera_23-2147774849.jpg" alt="Yuvraj Bhatkariya" class="avatar">
         <h1>Yuvraj Bhatkariya</h1>
-        <p>Senior ML Engineer | Data Scientist | Software Developer</p>
-    </header>
-
-    <nav>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="projects" id="projects">
-        <div class="project-item">
-            <span class="project-title">Tofu:</span> A deep learning framework for Python, C, C++, and Java.
+        <p>Senior ML Engineer</p>
+        <div class="social-links">
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+            <!-- Add more social links as needed -->
         </div>
-        <div class="project-item">
-            <span class="project-title">Drive AI:</span> A warning system for drivers using computer vision and deep learning.
-        </div>
-        <!-- Add more project items here -->
-    </div>
-
-    <div class="contact" id="contact">
-        <p class="email">Contact Yuvraj: yuvraj@example.com</p>
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Project 1:</strong> Sentiment Analysis using LSTM
+                <p>Developed an LSTM-based model for sentiment analysis on social media data.</p>
+            </li>
+            <!-- Add more projects with details -->
+        </ul>
+        <h2>Research Papers</h2>
+        <ul>
+            <li>
+                <strong>Paper 1:</strong> "Deep Learning Approaches for Image Recognition"
+                <p>Published in IEEE Transactions on Neural Networks and Learning Systems.</p>
+            </li>
+            <!-- Add more research papers with details -->
+        </ul>
+        <h2>Experience</h2>
+        <p>With over 10 years of experience in machine learning and artificial intelligence, I have worked on various projects across domains.</p>
+        <h2>Contact Information</h2>
+        <p>Email: yuvraj@example.com</p>
+        <p>Mobile: +91 9876543210</p>
     </div>
 </body>
 </html>
